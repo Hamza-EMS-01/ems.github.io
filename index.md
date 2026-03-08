@@ -2,274 +2,329 @@
 
 body{
 font-family: "Segoe UI", Arial, sans-serif;
+background:#f4f6f7;
 margin:0;
-background:#f5f5f5;
+padding:0;
 }
 
-.container{
-max-width:1100px;
+/* CV Container */
+
+.cv{
+max-width:900px;
 margin:40px auto;
-display:grid;
-grid-template-columns:320px 1fr;
 background:white;
-box-shadow:0 5px 20px rgba(0,0,0,0.08);
+box-shadow:0 6px 20px rgba(0,0,0,0.08);
+padding-bottom:30px;
 }
 
-/* Sidebar */
+/* Header */
 
-.sidebar{
-background:#1f2933;
+.header{
+background:#6e8487;
 color:white;
+text-align:center;
+padding:25px;
+}
+
+.header h1{
+margin:0;
+font-size:34px;
+}
+
+.header p{
+margin:5px 0 0;
+font-size:16px;
+opacity:0.9;
+}
+
+/* Layout */
+
+.grid{
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:25px;
 padding:30px;
 }
 
-.sidebar h1{
-margin-top:0;
-font-size:30px;
-}
+/* Sections */
 
-.sidebar h3{
-border-bottom:1px solid rgba(255,255,255,0.3);
-padding-bottom:5px;
-margin-top:30px;
-}
-
-.sidebar ul{
-padding-left:18px;
-}
-
-.sidebar a{
-color:#9ecbff;
-text-decoration:none;
-}
-
-/* Main content */
-
-.main{
-padding:40px;
-}
-
-.main h2{
-border-bottom:2px solid #eee;
-padding-bottom:6px;
-margin-top:40px;
-}
-
-.job{
+.section{
 margin-bottom:25px;
 }
 
+.section h2{
+font-size:18px;
+border-bottom:2px solid #e6e6e6;
+padding-bottom:5px;
+margin-bottom:15px;
+}
+
+/* Experience */
+
+.job{
+margin-bottom:15px;
+}
+
 .job h3{
-margin-bottom:5px;
+margin:0;
+font-size:16px;
 }
 
 .job span{
-color:#666;
+font-size:13px;
+color:#777;
+}
+
+/* Boxes */
+
+.box{
+background:#f3f5f6;
+padding:15px;
+border-radius:6px;
+margin-bottom:15px;
+}
+
+/* Skills */
+
+.skills{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:10px;
 font-size:14px;
 }
 
-ul{
-margin-top:5px;
+/* Interests */
+
+.interest{
+display:flex;
+align-items:center;
+margin-bottom:10px;
+}
+
+.icon{
+width:28px;
+height:28px;
+border-radius:50%;
+background:#6e8487;
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+margin-right:10px;
+font-size:14px;
+}
+
+/* Footer */
+
+.footer{
+text-align:center;
+font-size:14px;
+color:#666;
+margin-top:10px;
 }
 
 </style>
 
-<div class="container">
+<div class="cv">
 
-<div class="sidebar">
+<div class="header">
 
 # Camille Dupont  
-### Full-Stack Web Developer
+Full-Stack Web Developer
 
----
+</div>
 
-### Contact
+<div class="grid">
+
+<!-- LEFT COLUMN -->
+
+<div>
+
+<div class="section">
+
+## About Me
+
+Titulaire d'un DUT en informatique puis diplômé **Ingénieur en informatique à EFREI Paris**, j’ai travaillé comme développeur **front-end puis back-end** sur différents frameworks dans de grands groupes.
+
+Aujourd’hui, je recherche une mission **full-stack web ou mobile** afin de contribuer à la création d’applications performantes et évolutives.
+
+</div>
+
+<div class="section">
+
+## Professional Experience
+
+<div class="job">
+
+### Sopra Steria — Back-End Developer  
+<span>Paris • 2021 – 2022</span>
+
+- Développement d’API **PHP (Symfony, Laravel)**
+- Requêtes avancées **SQL et ElasticSearch**
+- Nouveaux endpoints **Express.js**
+- Intégration de services **AWS avec NodeJS**
+
+</div>
+
+<div class="job">
+
+### Thales — Python Developer  
+<span>Grenoble • 2020 – 2021</span>
+
+- Développement d’API **GraphQL**
+- Optimisation de traitements **NoSQL**
+- 96% des tâches validées durant les sprints
+
+</div>
+
+<div class="job">
+
+### Instagram — ReactJS Developer  
+<span>Paris • 2019</span>
+
+- Tests unitaires automatisés
+- Optimisation de composants **ReactJS TypeScript**
+- Correctifs de compatibilité librairies
+
+</div>
+
+</div>
+
+<div class="section">
+
+## Education
+
+<div class="box">
+
+**Engineering Degree – Computer Science**  
+EFREI Paris  
+2016 – 2019  
+Spécialisation Data Scientist
+
+</div>
+
+<div class="box">
+
+**DUT Informatique**  
+IUT d'Orsay  
+2015 – 2016
+
+</div>
+
+<div class="box">
+
+**Baccalauréat Scientifique**  
+Lycée Janson de Sailly  
+2015 — Mention Bien
+
+</div>
+
+</div>
+
+</div>
+
+<!-- RIGHT COLUMN -->
+
+<div>
+
+<div class="section">
+
+## Contact
+
+<div class="box">
 
 📧 candidat@exemple.com  
-
-📍 10 rue Charles Péguy  
-69000 Lyon  
 
 📞 06 12 13 14 15  
 
-🚗 Driving licence  
-Personal vehicle  
+📍 Lyon, France  
 
----
-
-### Languages
-
-**English**  
-C1 – Technical vocabulary  
-6-month internship in the UK  
-
-**Spanish**  
-B1 – Informal conversation  
-
----
-
-### Core Skills
-
-**Front-End**
-- ReactJS  
-- VueJS  
-- Nuxt.js  
-- HTML / CSS  
-- TypeScript  
-- Unit Testing  
-
-**Back-End**
-- NodeJS  
-- Python (Django)  
-- PHP (Symfony / Laravel)  
-- GraphQL / REST APIs  
-- SQL & NoSQL  
-
-**DevOps**
-- AWS  
-- Firebase  
-- Gitlab CI/CD  
-- Debian server monitoring  
-- Shell scripting  
-
----
-
-### Soft Skills
-
-- Analytical thinking  
-- Perseverance & rigor  
-- Collaborative work with Git  
-- Technical documentation  
-
----
-
-### Interests
-
-🏓 Table tennis (3 years in club)  
-📚 Reading  
-🎬 Cinema  
-✏️ Drawing  
+🚗 Permis + véhicule  
 
 </div>
 
-<div class="main">
+</div>
 
-# About Me
+<div class="section">
 
-I'm a **software engineer specialized in full-stack web development**, with a strong academic background including an **Engineering degree in Computer Science from EFREI Paris**.
+## Skills
 
-My career started in **front-end development**, building modern user interfaces with JavaScript frameworks. I later expanded into **back-end development and API architecture**, working with technologies such as **Node.js, PHP, Python, and cloud services**.
+<div class="box skills">
 
-I enjoy solving complex technical problems and building **scalable web applications** that combine strong performance with clean architecture.
+Frontend  
+ReactJS  
+VueJS  
+Nuxt.js  
+HTML / CSS  
 
----
+Backend  
+NodeJS  
+Python (Django)  
+PHP  
+SQL  
 
-# Professional Experience
-
-<div class="job">
-
-### Back-End Developer – PHP & NodeJS  
-**Sopra Steria – Paris**  
-<span>2021 – 2022</span>
-
-Worked within a multidisciplinary team including developers, data scientists and DevOps architects on projects in the **defense sector**.
-
-Key contributions:
-
-- Development of **PHP APIs** using **Symfony and Laravel**
-- Integration of **advanced SQL and ElasticSearch queries**
-- Implementation of new **Express.js endpoints with cybersecurity constraints**
-- Integration of **AWS services in NodeJS** to offload heavy tasks
+DevOps  
+AWS  
+Firebase  
+Gitlab CI/CD  
 
 </div>
 
-<div class="job">
+</div>
 
-### Back-End Developer – Python  
-**Thales – Grenoble**  
-<span>2020 – 2021</span>
+<div class="section">
 
-Worked on an internal platform designed for **aircraft equipment maintenance**.
+## Languages
 
-Key contributions:
+<div class="box">
 
-- Implementation of **GraphQL API endpoints**
-- Optimization of **bulk processing functions on NoSQL documents**
-- Completion and peer validation of **96% of sprint tasks**
+🇬🇧 English — C1  
+Technical vocabulary, internship in UK
+
+🇪🇸 Spanish — B1  
+Conversational
 
 </div>
 
-<div class="job">
+</div>
 
-### Front-End Developer – ReactJS  
-**Instagram – Paris**  
-<span>2019</span>
+<div class="section">
 
-Worked with senior engineers on improvements to the **Instagram Desktop messaging module**.
+## Interests
 
-Key contributions:
+<div class="box">
 
-- Implementation of **automated unit tests**
-- Optimization of **ReactJS components written in TypeScript**
-- Library updates and compatibility fixes
+<div class="interest">
+<div class="icon">🏓</div>
+Table Tennis
+</div>
+
+<div class="interest">
+<div class="icon">📚</div>
+Reading
+</div>
+
+<div class="interest">
+<div class="icon">🎬</div>
+Cinema
+</div>
+
+<div class="interest">
+<div class="icon">✏️</div>
+Drawing
+</div>
 
 </div>
 
----
+</div>
 
-# Featured Projects
+</div>
 
-### Full-Stack Web Application
+</div>
 
-**Tech stack:** React, NodeJS, MongoDB  
+<div class="footer">
 
-A scalable web platform allowing users to manage and visualize data through an intuitive interface.
-
----
-
-### Data Analytics Dashboard
-
-**Tech stack:** VueJS, Django, PostgreSQL  
-
-A dashboard that aggregates and processes large datasets and displays insights through visual reports.
-
----
-
-# Education & Certifications
-
-### Engineering Degree in Computer Science  
-**EFREI Paris**  
-2016 – 2019  
-Specialization: **Data Science**
-
-Internships:
-
-- Development of **NodeJS microservices in the banking sector**
-- Redesign of the **data model of a logistics delivery tracking application**
-
----
-
-### DUT Computer Science  
-**IUT d'Orsay**  
-2015 – 2016
-
----
-
-### Scientific Baccalaureate  
-**Lycée Janson de Sailly – Paris**  
-2015 — Mention Bien
-
----
-
-# Let's Connect
-
-📧 candidat@exemple.com  
-
-💼 LinkedIn  
-https://linkedin.com/in/yourprofile  
-
-💻 GitHub  
-https://github.com/yourusername  
+Thank you for your interest!
 
 </div>
 
