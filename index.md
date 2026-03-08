@@ -1,178 +1,276 @@
-# Camille Dupont 👨‍💻  
+<style>
+
+body{
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+line-height:1.6;
+max-width:1000px;
+margin:auto;
+padding:40px;
+}
+
+.hero{
+text-align:center;
+padding:40px 20px;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:5px;
+}
+
+.hero h3{
+color:#666;
+margin-top:0;
+}
+
+.tagline{
+font-size:18px;
+color:#444;
+}
+
+.section{
+margin-top:60px;
+}
+
+.card{
+background:#f7f7f7;
+padding:20px;
+border-radius:10px;
+margin-bottom:20px;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.footer{
+text-align:center;
+margin-top:60px;
+font-size:18px;
+}
+
+a{
+text-decoration:none;
+color:#0366d6;
+font-weight:600;
+}
+
+</style>
+
+<div class="hero">
+
+# Camille Dupont 👨‍💻
+
 ### Full-Stack Web Developer
 
-*Building scalable web applications, clean APIs, and seamless user experiences.*
+<p class="tagline">
+Building scalable web applications, clean APIs, and seamless user experiences.
+</p>
 
-Hello! I'm **Camille**, a passionate **full-stack web developer** with an engineering background in computer science. I enjoy designing robust back-end architectures while also crafting efficient and user-friendly front-end interfaces. My experience spans large enterprise environments, modern web frameworks, and cloud technologies.
+Hello! I'm **Camille**, a passionate **full-stack developer** specialized in modern web technologies.
 
----
-
-# 👋 About Me
-
-I'm a **software engineer specialized in full-stack web development**, with a strong academic background including an **Engineering degree in Computer Science from EFREI Paris**. My journey began with front-end development, where I built interactive user interfaces using modern JavaScript frameworks, before expanding into back-end engineering and API architecture.
-
-Over the past few years, I’ve had the opportunity to work with **major tech and defense organizations**, contributing to large-scale systems using technologies such as **Node.js, PHP, Python, and React**. I enjoy solving complex technical challenges, optimizing performance, and building reliable systems that scale.
-
-Today, I'm actively seeking new opportunities to contribute to **innovative web or mobile projects as a full-stack developer**, where I can combine strong technical skills with collaboration and creativity.
+</div>
 
 ---
 
-# 🧠 Core Skills
+## 👋 About Me
 
-## Programming Languages
+I'm a **software engineer specialized in full-stack development** with an engineering degree in computer science from **EFREI Paris**.
+
+My career started in **front-end development**, where I built interactive user interfaces using modern JavaScript frameworks. Over time I expanded into **back-end engineering**, API architecture, and cloud deployment.
+
+I've worked with large organizations such as **Sopra Steria, Thales, and Instagram**, contributing to scalable applications using technologies like **Node.js, PHP, Python, React, and AWS**.
+
+Today, I'm looking for opportunities to contribute to **innovative web or mobile projects as a full-stack developer.**
+
+---
+
+## 🧠 Core Skills
+
+<div class="skills">
+
+<div class="card">
+
+### Languages
 - JavaScript / TypeScript  
 - Python  
 - PHP  
 - SQL  
-- Shell scripting  
+- Shell
 
-## Front-End Development
+</div>
+
+<div class="card">
+
+### Frontend
 - ReactJS  
 - VueJS  
 - Nuxt.js  
-- HTML5 / CSS3  
+- HTML / CSS  
 - TypeScript  
-- Unit Testing  
+- Unit Testing
 
-## Back-End Development
-- Node.js  
-- Django (Python)  
-- PHP (Symfony, Laravel)  
+</div>
+
+<div class="card">
+
+### Backend
+- NodeJS  
+- Django  
+- Symfony / Laravel  
 - REST APIs  
-- GraphQL APIs  
-- SQL & NoSQL Databases  
+- GraphQL  
+- SQL / NoSQL
 
-## DevOps & Cloud
-- AWS Services  
+</div>
+
+<div class="card">
+
+### DevOps & Cloud
+- AWS  
 - Firebase  
 - GitLab CI/CD  
 - Debian Server Monitoring  
-- Shell Automation  
+- Shell automation
 
-## Collaboration & Methodologies
-- Git (branching, code reviews, collaboration workflows)  
-- Agile / Sprint development  
-- Technical specifications & documentation  
+</div>
 
-## Soft Skills
-- Analytical thinking  
-- Strong synthesis ability  
-- Perseverance & rigor  
-- Team collaboration  
+</div>
 
 ---
 
-# 💼 Professional Experience
+## 💼 Professional Experience
 
-### **Back-End Developer (PHP & Node.js)**  
-**Sopra Steria — Paris**  
-*2021 – 2022*
+### Sopra Steria — Back-End Developer  
+**2021 — 2022**
 
-Worked within a multidisciplinary team including project managers, developers, data scientists, and DevOps architects on **defense sector client projects**.
+<div class="card">
 
-**Key Contributions**
-- Developed secure **PHP APIs** using **Symfony and Laravel** frameworks.
-- Implemented **advanced SQL and ElasticSearch queries** for large datasets.
-- Added secure **Express.js API endpoints** with strong cybersecurity considerations.
-- Integrated **AWS services in Node.js** to offload heavy processing tasks and improve scalability.
+Worked on **defense sector client projects** in a multidisciplinary team.
 
----
+**Key achievements**
 
-### **Back-End Developer (Python)**  
-**Thales — Grenoble**  
-*2020 – 2021*
+- Built secure **PHP APIs** with **Symfony & Laravel**
+- Implemented **advanced SQL and ElasticSearch queries**
+- Added secure endpoints in **Express.js APIs**
+- Integrated **AWS services with NodeJS** to process heavy workloads
 
-Contributed to the development of an internal platform used for **aircraft equipment maintenance management**.
-
-**Key Contributions**
-- Designed and implemented **GraphQL API endpoints**.
-- Optimized performance of **bulk document processing functions** on NoSQL datasets.
-- Successfully delivered **96% of assigned sprint tasks on time**, validated through peer reviews.
+</div>
 
 ---
 
-### **Front-End Developer (ReactJS)**  
-**Instagram — Paris**  
-*2019*
+### Thales — Python Back-End Developer  
+**2020 — 2021**
 
-Worked alongside senior front-end engineers to improve the **Instagram Desktop messaging module**.
+<div class="card">
 
-**Key Contributions**
-- Implemented **automated unit testing** for key components.
-- Optimized and refactored **ReactJS components written in TypeScript**.
-- Updated dependencies and resolved compatibility issues across libraries.
+Developed internal systems used for **aircraft equipment maintenance**.
 
----
+**Key achievements**
 
-# 🚀 Featured Projects
+- Created new **GraphQL API endpoints**
+- Optimized **NoSQL bulk processing performance**
+- Delivered **96% of sprint tasks on time**
 
-*(You can replace these with real GitHub projects later.)*
-
-## Project Name: Full-Stack Web Application
-**Tech Stack:** React, Node.js, MongoDB, Docker  
-
-**Description:**  
-A scalable web platform allowing users to manage and visualize data through an intuitive interface. Built with a modern API architecture and deployed with containerization.
+</div>
 
 ---
 
-## Project Name: Data Analytics Dashboard
-**Tech Stack:** Vue.js, Python (Django), PostgreSQL  
+### Instagram — ReactJS Front-End Developer  
+**2019**
 
-**Description:**  
-An analytics dashboard that aggregates and processes large datasets, offering visual insights through charts and automated reports.
+<div class="card">
+
+Worked on improvements for the **Instagram Desktop messaging module**.
+
+**Key achievements**
+
+- Implemented **automated unit tests**
+- Optimized **ReactJS components in TypeScript**
+- Updated libraries and resolved compatibility issues
+
+</div>
 
 ---
 
-# 🎓 Education & Certifications
+## 🚀 Featured Projects
 
-### **Engineering Degree in Computer Science**  
+<div class="card">
+
+### Full-Stack Web Application
+
+**Tech:** React • NodeJS • MongoDB
+
+A scalable web application allowing users to manage and visualize structured data through an intuitive interface.
+
+</div>
+
+<div class="card">
+
+### Data Analytics Dashboard
+
+**Tech:** VueJS • Django • PostgreSQL
+
+An analytics dashboard designed to process large datasets and provide insights through visual reporting.
+
+</div>
+
+---
+
+## 🎓 Education
+
+### Engineering Degree — Computer Science  
 **EFREI Paris**  
-*2016 – 2019*  
+2016 — 2019  
 Specialization: **Data Science**
 
-**Internships during the program**
-- Development of **Node.js microservices** in the banking sector  
-- Redesign of a **data model for an e-commerce logistics tracking system**
+Internships:
+
+- NodeJS microservices development (banking sector)
+- Data model redesign for a **logistics tracking platform**
 
 ---
 
-### **DUT – Computer Science**  
-**IUT d'Orsay**  
-*2015 – 2016*
+### DUT Computer Science  
+IUT d'Orsay  
+2015 — 2016
 
 ---
 
-### **Scientific Baccalaureate**  
-**Lycée Janson de Sailly – Paris**  
-*2015 — Mention Bien*
+### Scientific Baccalaureate  
+Lycée Janson de Sailly  
+2015 — *Mention Bien*
 
 ---
 
-# 🌍 Languages
+## 🌍 Languages
 
-- **English:** C1 – Technical vocabulary, 6-month internship in the UK  
-- **Spanish:** B1 – Conversational  
+- 🇬🇧 English — C1 (6-month internship in the UK)  
+- 🇪🇸 Spanish — B1 conversational
 
 ---
 
-# 🎯 Interests
+## 🎯 Interests
 
-- 🏓 Table tennis (3 years in a club)  
+- 🏓 Table Tennis  
 - 📚 Reading  
 - 🎬 Cinema  
 - ✏️ Drawing  
 
 ---
 
-# 🤝 Let's Connect
+<div class="footer">
 
-I'm always open to discussing new projects, collaborations, or opportunities.
+## 🤝 Let's Connect
 
-📧 **Email:** candidat@exemple.com  
-💼 **LinkedIn:** https://linkedin.com/in/yourprofile  
-💻 **GitHub:** https://github.com/yourusername  
+📧 candidat@exemple.com  
 
----
+💼 LinkedIn  
+https://linkedin.com/in/yourprofile  
 
-⭐ *If you like my work, feel free to check out my repositories and connect!*
+💻 GitHub  
+https://github.com/yourusername  
+
+</div>
